@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport"
+           content="width=device-width,
+           user-scalable=no,
+           initial-scale=1.0,
+           maximum-scale=1.0,
+           minimum-scale=1.0">
+     <meta http-equiv="X-UA-Compatible"
+           content="ie=edge">
+     <title>Islands</title>
+     <link rel="stylesheet" href="css/css.css">
+     <script type="module" src="js/is-land.js"></script>
+</head>
+<body>
+    <nav><a href="index.html">Home</a> | <a href="islands.html">Islands</a></nav>
+
+    <main>
+    <h1>Islands</h1>
+<h2>A petite-vue counter</h2>
+<is-land on:visible>
+<div id="counter" v-scope="{ count: 0 }">
+  <p>Count: <span v-text="count"></span></p>
+  <button @click="count++">Add one</button>
+</div>
+<template data-island>
+<script type="module">
+  import { createApp } from './js/petite-vue.js'
+  createApp().mount('#counter')
+</script>
+</template>
+</is-land>
+<h2>Reusable counters</h2>
+<is-land on:visible>
+<div id="counters">
+  <div v-scope="Counter({ initialCount: 5 })">
+    <p>Count: <span v-text="count"></span></p>
+    <button @click="increment">+</button>
+  </div>
+  <div v-scope="Counter({ initialCount: 20 })">
+    <p>Count: <span v-text="count"></span></p>
+    <button @click="increment">+</button>
+  </div>
+</div>
+<template data-island>
+<script type="module">
+  import { createApp } from './js/petite-vue.js'
+  function Counter(props) {
+    return {
+      count: props.initialCount,
+      increment() { this.count++ }
+    }
+  }
+  createApp({ Counter }).mount('#counters')
+</script>
+</template>
+</is-land>
+<h2>Three.js scene</h2>
+<is-land on:visible>
+<template data-island>
+<div id="scene-container"></div>
+<script type="module" src="js/threeScene.js"></script>
+</template>
+</is-land>
+
+    </main>
+
+</body>
+</html>
