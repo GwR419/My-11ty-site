@@ -42,3 +42,30 @@ code {
   padding: 0.1em 0.4em;
   border-radius: 4px;
 }
+
+/* Gallery */
+.filters button.on {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.topic img {
+  max-width: 14rem;
+  margin: 0.5rem;
+}
+
+.topic .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.topic figure {
+  margin: 0;
+  max-width: 14rem;
+}
+
+.topic figure img {
+  width: 100%;
+  margin: 0;
+}

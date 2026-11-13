@@ -26,6 +26,9 @@ module.exports = function (eleventyConfig) {
   // Textures/models for the scene go in _src/threed-images/
   eleventyConfig.addPassthroughCopy("./_src/threed-images/");
 
+  // Gallery images, one folder per topic
+  eleventyConfig.addPassthroughCopy("./_src/img/");
+
   return {
     dir: {
       input: "_src",

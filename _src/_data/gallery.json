@@ -1,0 +1,65 @@
+{
+  "setup": [
+    {
+      "file": "daw-fl-studio.jpg",
+      "caption": "My FL Studio setup",
+      "alt": "FL Studio open with a blue theme, the sample browser full of Cymatics packs on the left and Hatsune Miku art in the empty workspace"
+    },
+    {
+      "file": "pc-build.jpg",
+      "caption": "My PC build",
+      "alt": "A glass PC case in a dark room, lit up in blue and purple, with fans and a small cooler screen showing anime art"
+    }
+  ],
+  "cat": [
+    {
+      "file": "on-the-floor.jpg",
+      "caption": "Looking up from the floor",
+      "alt": "A black and white tuxedo cat with yellow eyes sitting on a wood floor, looking up at the camera"
+    },
+    {
+      "file": "on-the-shelf.jpg",
+      "caption": "On the shelf",
+      "alt": "The tuxedo cat sitting on a white shelf next to a bag of coffee, eyes wide"
+    },
+    {
+      "file": "close-up.jpg",
+      "caption": "Close up",
+      "alt": "A close-up of the tuxedo cat's face, showing the black spot on its white chin"
+    },
+    {
+      "file": "in-a-box.jpg",
+      "caption": "In a box",
+      "alt": "The tuxedo cat sitting inside an open cardboard box in a living room"
+    },
+    {
+      "file": "side-view.jpg",
+      "caption": "Side view",
+      "alt": "The tuxedo cat in profile, looking to the side, with a Christmas tree in the background"
+    }
+  ],
+  "v": [
+    {
+      "file": "arms-crossed.jpg",
+      "caption": "V with arms crossed",
+      "alt": "My V from Cyberpunk 2077 at night, arms crossed with a pistol in each hand, wearing glowing visor glasses and a black and white NUSA jacket"
+    },
+    {
+      "file": "pistols-up.jpg",
+      "caption": "V with pistols up",
+      "alt": "My V from Cyberpunk 2077 holding two pistols up beside her head, next to a graffiti-covered wall"
+    }
+  ],
+  "kojima": [
+    {
+      "file": "bounty-screen.jpg",
+      "caption": "Bounty issued",
+      "alt": "Hideo Kojima's character in Cyberpunk 2077 on a red NCPD bounty screen that reads Bounty Issued"
+    },
+    {
+      "file": "yellow-burst.jpg",
+      "caption": "Yellow burst",
+      "alt": "Hideo Kojima's character in Cyberpunk 2077 looking down, framed by bright yellow comic-style speed lines"
+    }
+  ]
+}
